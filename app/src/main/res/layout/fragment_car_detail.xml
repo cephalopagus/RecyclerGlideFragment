@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarDetailFragment">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/img_detail"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txt_detail"
+        android:text="Toyota"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </TextView>
+
+</FrameLayout>
